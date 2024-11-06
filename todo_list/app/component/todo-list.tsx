@@ -36,6 +36,7 @@ useEffect(() => {
   }
 }, [todos]);
 
+
 const addTask = () => {
   if (newTask.trim() === "") return;
   const newTodo: Todo = {
