@@ -70,7 +70,7 @@ export default function Countdown() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500 p-4">
       <div className="bg-white dark:bg-gray-800 shadow-2xl rounded-3xl p-8 w-full max-w-md lg:max-w-lg xl:max-w-xl transform transition duration-300 hover:scale-105">
         <h1 className="text-3xl md:text-4xl font-extrabold mb-6 text-gray-800 dark:text-gray-200 text-center">
           Countdown Timer
