@@ -1,8 +1,8 @@
-import 'styles/globals.css';
-import type { AppProps } from 'next/app';
-
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+import Countdown from './components/countdown';
+export default function Home() {
+  return (
+    <div>
+      <Countdown />
+    </div>
+  );
 }
-
-export default MyApp;
